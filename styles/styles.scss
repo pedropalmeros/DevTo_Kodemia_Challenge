@@ -1,4 +1,6 @@
 $hoverColor: #e2e3f3;
+$blackIcon: #404040;
+$hoverIcon: #2f3ab2;
 
 
 .SecondArea{
@@ -17,4 +19,49 @@ $hoverColor: #e2e3f3;
         text-decoration: underline;
     }
     
+}
+
+
+.smallIcon{
+    background-color: transparent;
+    height: 20px;
+    width:20px;
+}
+.smallIcon:hover{
+    background-color: $hoverColor;
+}
+
+.tw{
+    background-image: url('../images/twBlack.svg');
+}
+.tw:hover{
+    background-image: url('../images/twHover.svg');
+}
+
+.fb{
+    background-image: url('../images/fbBlack.svg');
+}
+.fb:hover{
+    background-image: url('../images/fbHover.svg');
+}
+
+.git{
+    background-image: url('../images/gitBlack.svg');
+}
+.git:hover{
+    background-image: url('../images/gitHover.svg');
+}
+
+.ig{
+    background-image: url('../images/instaBlack.svg');
+}
+.ig:hover{
+    background-image: url('../images/instaHover.svg');
+}
+
+.dis{
+    background-image: url('../images/discordBlack.svg');
+}
+.dis:hover{
+    background-image: url('../images/discordHover.svg');
 }
