@@ -1,4 +1,17 @@
 .SecondArea {
-  margin-top: 90px;
+  margin-top: 100px;
+}
+
+.left-aside .list-group-item {
+  border: 0 !important;
+}
+
+.left-aside .list-group-item img {
+  height: 20px;
+}
+
+.left-aside .list-group-item:hover {
+  background-color: #e2e3f3;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */

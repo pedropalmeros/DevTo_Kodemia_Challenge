@@ -1,3 +1,20 @@
+$hoverColor: #e2e3f3;
+
+
 .SecondArea{
-    margin-top: 90px;
+    margin-top: 100px;
+}
+
+.left-aside{
+    .list-group-item{
+        border:0!important;
+        img{
+            height: 20px;
+        }
+    }
+    .list-group-item:hover{
+        background-color: $hoverColor;
+        text-decoration: underline;
+    }
+    
 }
