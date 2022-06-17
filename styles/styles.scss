@@ -65,3 +65,28 @@ $hoverIcon: #2f3ab2;
 .dis:hover{
     background-image: url('../images/discordHover.svg');
 }
+
+
+
+// *{
+//     padding: 0%;
+//     margin: 0%;
+//     box-sizing: border-box;
+// }
+// body{
+//     width: auto;
+//     height: auto;
+// }
+// header{
+//     max-width: 100%;
+//     height: 56px;
+// }
+.aside1{
+    padding-right: 10px;
+}
+.aside2{
+    padding-left: 10px;
+}
+.link-title{
+   text-decoration: none;
+}

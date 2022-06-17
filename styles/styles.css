@@ -64,4 +64,16 @@
 .dis:hover {
   background-image: url("../images/discordHover.svg");
 }
+
+.aside1 {
+  padding-right: 10px;
+}
+
+.aside2 {
+  padding-left: 10px;
+}
+
+.link-title {
+  text-decoration: none;
+}
 /*# sourceMappingURL=styles.css.map */
