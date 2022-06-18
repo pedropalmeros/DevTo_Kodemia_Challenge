@@ -237,4 +237,10 @@
 .icons-general {
   margin-top: 8px;
 }
+
+.notify {
+  border-radius: 20%;
+  background-color: orange;
+  border: 1px solid orange;
+}
 /*# sourceMappingURL=styles.css.map */
