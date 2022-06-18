@@ -14,26 +14,34 @@
 <body>
     <header>
         <nav>
-            <nav class="navbar bg-light fixed-top border-bottom">
-                <div class="container-fluid  d-flex justify-content-between">
+            <nav class="navbar fixed-top border-bottom p-0">
+                <div class="container-fluid d-flex justify-content-md-between">
                     <div class="d-flex ">
                         <button class="navbar-toggler d-md-none border border-light" type=" button"
                             data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                             aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon d-flex align-items-center"></span>
                         </button>
-                        <img class="me-3" src="./images/dev_to_icon_136699.png" alt="">
+                        <img class="" src="./images/dev_to_icon_136699.png" alt="">
                         <div class="input-group align-items-center w-auto">
-                            <input type="text" class="form-control d-none h-75   border-end-0  d-md-flex"
+                            <input type="text" class="form-control d-none h-75 border-end-0  d-md-flex"
                                 placeholder="Search..." aria-label="Search" aria-describedby="basic-addon1">
-                            <span class="input-group-text bg-light d-flex h-75 border-md-0 " id="basic-addon1">
-                                <img class="" src="./images/icons8-búsqueda-40.svg" alt="">
+                            <span class="input-group-text d-none d-md-flex h-75  " id="basic-addon1">
+                                <img class=" d-none d-md-block"
+                                    src="./images/magnifier_magnifying_glass_magnifying_view_search_icon_196570.png"
+                                    alt="">
                             </span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center  me-md-4">
-                        <a class="text-decoration-none text-black d-none d-md-flex me-md-4" href="">Login</a>
-                        <button type="button" class="btn btn-outline-primary">Create
-                            account</button>
+                    <div class="d-flex align-items-center">
+                        <a href="#"><img class="p-1 d-md-none"
+                                src="./images/magnifier_magnifying_glass_magnifying_view_search_icon_196570.png"
+                                alt=""></a>
+                        <button type="button" class="btn btn-outline-primary p-3 d-none d-md-block">Create Post</button>
+                        <a href="#"><img class="m-3" src="./images/bell_simple_thin_icon_171966.png" alt=""></a>
+                        <a href=""> <img class="border border-dark rounded-circle"
+                                src="./images/avatar_people_adult_man_icon_159129.png" alt=""></a>
+
                     </div>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
@@ -45,82 +53,90 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/house_home_real_estate_property_building_architecture_icon_141977.png"
-                                        alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <img src="./icons/home.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">Home</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/62941cardfilebox_109271.png" alt=""><a class="nav-link active"
+                                    <img src="./icons/reading_list.png" alt=""><a class="nav-link active"
                                         aria-current="page" href="#">Reading List</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/62867scroll_109334.png" alt=""> <a class="nav-link active"
+                                    <img src="./icons/listing.png" alt=""> <a class="nav-link active"
                                         aria-current="page" href="#">Listings</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/62800studiomicrophone_109354.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">Podcasts</a>
+                                    <img src="./icons/podcasts.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Podcasts</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/film_projector_cinema_icon-icons.com_66132.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">Videos</a>
+                                    <img src="./icons/videos.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">Videos</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/diagram-38_24479.png" alt=""> <a class="nav-link active"
-                                        aria-current="page" href="#">Tags</a>
+                                    <img src="./icons/tags.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">Tags</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/Idea-80_icon-icons.com_57314.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">FAQ</a>
+                                    <img src="./icons/faq.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">FAQ</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/compras_tienda_bolsas_icon_209800.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">Forem Shop</a>
+                                    <img src="./icons/shop.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">Forem Shop</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img src="./images/heart-icon_34407.png" alt=""> <a class="nav-link active"
+                                    <img src="./icons/sponsors.png" alt=""> <a class="nav-link active"
                                         aria-current="page" href="#">Sponsors</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img src="./images/dev_to_icon_130961 (2).png" alt=""> <a class="nav-link active"
-                                        aria-current="page" href="#">About</a>
+                                    <img class="about1" src="./icons/about.png " alt="">
+                                    <a class="nav-link active" aria-current="page" href="#">About</a>
+
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img src="./images/french_horn_icon-icons.com_68658.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">Contact</a>
+                                    <img src="./icons/contact.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Contact</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img src="./images/read_book_study_icon-icons.com_51077.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">Guides</a>
+                                    <img class="about1" src="./icons/guides.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Guides</a>
                                 </li>
                                 <br>
                                 <h5>Others</h5>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/like_icon_129444.png" alt=""> <a class="nav-link active"
+                                    <img src="./icons/thumb_up.png" alt=""> <a class="nav-link active"
                                         aria-current="page" href="#">Code of Conduct</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/face_nerd_emo_emoticon_emoji_icon_209625.png" alt=""> <a
-                                        class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
+                                    <img src="./icons/policy.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">Privacy Policy</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./images/12123eyes_109574.png" alt=""> <a class="nav-link active"
-                                        aria-current="page" href="#">Terms of use</a>
+                                    <img src="./icons/eyes.png" alt=""> <a class="nav-link active" aria-current="page"
+                                        href="#">Terms of use</a>
                                 </li>
                             </ul>
                             </li>
                             </ul>
-                        </div><!-- END OF OFFCANVAS-BODY -->
-                    </div><!-- END OF OFFCANVAS-START -->
+                            <div class="d-flex justify-content-between mt-3 ">
+                                <img src="./images/TWITTER_icon-icons.com_65486.png" alt="">
+                                <img src="./images/Facebook_Square_icon-icons.com_49948.png" alt="">
+                                <img src="./images/Github_icon-icons.com_49946.png" alt="" href="#">
+                                <img src="./images/instagram_logo_icon_173753.png" alt="" href="#">
+                                <img src="./images/twitch_icon_137066.png" alt="" href="#">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </nav>
     </header>
 
 
-    <div class="SecondArea">
+    <div class="secondArea">
         <main class="container">
             <div class="row">
-                <aside class="bg-transparent col-3 left-aside ">
+                <aside class="aside1 bg-transparent col-3 col-md-3 left-aside ">
                     <div class="list-group d-flex">
                         <a href="#" class="list-group-item"><img src="./images/home.png"><span class="ms-2">Home </span>
                         </a>
@@ -230,11 +246,12 @@
 
 
                 </aside>
-                <section class="col-6 col-md-6">
+                <section class="col-sm-12 col-xs-12 col-md-9 col-lg-6">
 
                     <ul class="nav nav-pills mb-3" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                            <!--SE QUITO "active" DE LA CLASE DE button-->
+                            <button class="nav-link style-relevant" id="home-tab" data-bs-toggle="tab"
                                 data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
                                 aria-selected="true">Relevant</button>
                         </li>
@@ -248,144 +265,562 @@
                                 data-bs-target="#contact-tab-pane" type="button" role="tab"
                                 aria-controls="contact-tab-pane" aria-selected="false">Top</button>
                         </li>
-                        <li class="nav-item" role="presentation">
+                        <!-- <li class="nav-item" role="presentation">
                             <button class="nav-link" id="disabled-tab" data-bs-toggle="tab"
                                 data-bs-target="#disabled-tab-pane" type="button" role="tab"
                                 aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
-                        </li>
+                        </li> -->
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
                             aria-labelledby="home-tab" tabindex="0">
                             <div class="card mb-3">
                                 <img src="/images/card_section_1.png" class="card-img-top" alt="...">
+
                                 <div class="card-body">
-                                    <h2 class="card-title">
-                                        People rarely use complicated git commands on the weekend, and I have the data
-                                        to prove
-                                        it.
-                                    </h2>
-                                    <p class="card-text">#git</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post">
+                                                People rarely use complicated git commands on the weekend, and I have
+                                                the
+                                                data
+                                                to prove
+                                                it.
+
+                                            </a>
+
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
                                 </div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">CodeLand is special, and I'm not just saying that.</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                CodeLand is special, and I'm not just saying that.
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">SQL Has Evolved a Lot In Order To Meet New Challenges — But
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                SQL Has Evolved a Lot In Order To Meet New Challenges —
+                                        But
                                         The
-                                        Fundamentals Have Remained 🎙</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
-                                </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
-                            </div>
+                                        Fundamentals Have Remained 🎙
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
 
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">
-                                        Can anyone recommend a little toolbox of Ruby goodies?
-                                    </h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                Can anyone recommend a little toolbox of Ruby goodies?
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">
-                                        Entendendo Redux com ReactJS
-                                    </h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                Entendendo Redux com ReactJS
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
+
                         </div>
+
                         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
                             tabindex="0">
 
                             <div class="card mb-3">
                                 <img src="/images/card_section_1.png" class="card-img-top" alt="...">
+
                                 <div class="card-body">
-                                    <h2 class="card-title">
-                                        People rarely use complicated git commands on the weekend, and I have the data
-                                        to prove
-                                        it.
-                                    </h2>
-                                    <p class="card-text">#git</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post">
+                                                People rarely use complicated git commands on the weekend, and I have
+                                                the
+                                                data
+                                                to prove
+                                                it.
+
+                                            </a>
+
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
                                 </div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">CodeLand is special, and I'm not just saying that.</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                CodeLand is special, and I'm not just saying that.
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">SQL Has Evolved a Lot In Order To Meet New Challenges — But
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                SQL Has Evolved a Lot In Order To Meet New Challenges —
+                                        But
                                         The
-                                        Fundamentals Have Remained 🎙</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                        Fundamentals Have Remained 🎙
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
-
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">
-                                        Can anyone recommend a little toolbox of Ruby goodies?
-                                    </h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                Can anyone recommend a little toolbox of Ruby goodies?
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">
-                                        Entendendo Redux com ReactJS
-                                    </h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                Entendendo Redux com ReactJS
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                         </div>
@@ -394,66 +829,274 @@
 
                             <div class="card mb-3">
                                 <img src="/images/card_section_1.png" class="card-img-top" alt="...">
+
                                 <div class="card-body">
-                                    <h2 class="card-title">
-                                        People rarely use complicated git commands on the weekend, and I have the data
-                                        to prove
-                                        it.
-                                    </h2>
-                                    <p class="card-text">#git</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post">
+                                                People rarely use complicated git commands on the weekend, and I have
+                                                the
+                                                data
+                                                to prove
+                                                it.
+
+                                            </a>
+
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
                                 </div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">CodeLand is special, and I'm not just saying that.</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                CodeLand is special, and I'm not just saying that.
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">SQL Has Evolved a Lot In Order To Meet New Challenges — But
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                SQL Has Evolved a Lot In Order To Meet New Challenges —
+                                        But
                                         The
-                                        Fundamentals Have Remained 🎙</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                        Fundamentals Have Remained 🎙
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
-
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">
-                                        Can anyone recommend a little toolbox of Ruby goodies?
-                                    </h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                Can anyone recommend a little toolbox of Ruby goodies?
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                             <div class="card  mb-3">
-                                <div class="card-header bg-transparent ">Header</div>
-                                <div class="card-body ">
-                                    <h2 class="card-title">
-                                        Entendendo Redux com ReactJS
-                                    </h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of the card's content.</p>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="">
+                                                <img src="/images/icon_profile.jpg" alt="" class="profile-dimention">
+                                            </a>
+                                        </div>
+
+                                        <div class="profile-card">
+                                            <span class="name-profile">Lorem ipsum </span>
+                                            <span class="date-profile">Lorem ipsum</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-distribution">
+                                        <h2 class="card-title">
+                                            <a href="" class="title-post-secondary">
+                                                Entendendo Redux com ReactJS
+                                            </a>
+                                        </h2>
+                                        <a class="card-text">
+                                            <span class="style-cat-git">#</span>javascript
+                                        </a>
+
+                                        <div class="d-flex justify-content-between icons-general">
+                                            <div>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/like.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        reactions
+                                                    </span>
+                                                </a>
+                                                <a href="" class="edition-icon">
+                                                    <img src="/images/comment.png" alt="">
+                                                    <span class="visibility-title-icon">
+                                                        comments
+                                                    </span>
+
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <small class="read-time">16 min read</small>
+                                                <button class="btn btn-secondary button-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="card-footer bg-transparent ">Footer</div>
                             </div>
 
                         </div>
@@ -466,7 +1109,7 @@
                 </section>
 
 
-                <aside class="aside2 col-3 ">
+                <aside class="aside2 col-lg-3 col-xl-3">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -533,6 +1176,31 @@
             </div>
         </main>
     </div>
+
+    <footer class="features-footer">
+        <div class="container d-flex flex-column align-items-center">
+            <!-- <div> -->
+            <p>
+                <a href="https://dev.to/">DEV Community</a> - A constructive and inclusive social network for
+                software developers. With you every step of your journey.
+            </p>
+            <!-- </div> -->
+            <!-- <div> -->
+            <p>
+                Built on
+                <a href="https://www.forem.com/">Forem</a> - the <a href="https://dev.to/t/opensource">open
+                    source</a> software that powers <a href="https://dev.to/">DEV</a> and other inclusive
+                communities.
+            </p>
+            <!-- </div> -->
+            <!-- <div> -->
+            <p>
+                Made with love and <a href="https://dev.to/t/rails">Ruby on Rails</a>. DEV Community <span>©</span>
+                2016 - 2022.
+            </p>
+            <!-- </div> -->
+        </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

@@ -1,5 +1,7 @@
-.SecondArea {
-  margin-top: 100px;
+.secondArea {
+  margin-top: 65px;
+  padding-top: 15px;
+  background: whitesmoke;
 }
 
 .left-aside .list-group-item {
@@ -75,5 +77,164 @@
 
 .link-title {
   text-decoration: none;
+}
+
+.features-footer {
+  background: #e5e5e5;
+  padding: 48px;
+}
+
+.style-relevant {
+  color: #090909;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.style-relevant:hover {
+  color: #3b49df;
+}
+
+.style-two-options:hover {
+  color: #3b49df;
+}
+
+.edition-icon {
+  text-decoration: none;
+  color: #3d3d3d;
+  width: 107px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+.edition-icon:hover {
+  background-color: rgba(0, 0, 0, 0.035);
+}
+
+.button-save {
+  background-color: #d6d6d7;
+  color: #3d3d3d;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.read-time {
+  font-size: 12px;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  .aside2 {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+  .aside2 {
+    display: none;
+  }
+  .aside1 {
+    display: none;
+  }
+  .visibility-title-icon {
+    display: none;
+  }
+  .title-post {
+    font-size: 24px;
+  }
+  .title-post-secondary {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 426px) {
+  .title-post {
+    font-size: 30px;
+  }
+  .title-post-secondary {
+    font-size: 24px;
+  }
+}
+
+.title-post {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #090909;
+}
+
+.title-post:hover {
+  color: #2f30b2;
+}
+
+.title-post-secondary {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #090909;
+}
+
+.title-post-secondary:hover {
+  color: #2f30b2;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.profile-dimention {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.profile-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.name-profile {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.date-profile {
+  font-size: 12px;
+}
+
+.card-distribution {
+  padding-left: 40px;
+}
+
+.style-cat-git {
+  color: #f7df1e;
+}
+
+.card-text {
+  text-decoration: none;
+  color: #404040;
+}
+
+.card-text:hover {
+  background: rgba(247, 223, 30, 0.1);
+  color: #404040;
+  border-radius: 6px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.visibility-title-icon:hover {
+  color: #404040;
+}
+
+.icons-general {
+  margin-top: 8px;
 }
 /*# sourceMappingURL=styles.css.map */
