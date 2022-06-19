@@ -256,4 +256,8 @@
 .input-group-text {
   background-color: white !important;
 }
+
+main {
+  border: 20px solid whitesmoke;
+}
 /*# sourceMappingURL=styles.css.map */
