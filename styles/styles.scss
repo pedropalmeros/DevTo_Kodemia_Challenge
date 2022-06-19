@@ -104,6 +104,7 @@ $backgroundBody:rgb(245,245,245);
 }
 .link-title{
    text-decoration: none;
+   color:black;
 }
 
 .features-footer{
@@ -286,7 +287,32 @@ $backgroundBody:rgb(245,245,245);
 .input-group-text{
     background-color: white !important;
 }
-main{
+footer{
     border: 20px solid $backgroundBody;
     
+}
+.createpost{
+    width: 125px;
+    height: 40px;
+    padding:0%;
+    &:hover{
+        background-color: #3b49df;
+    }
+}
+.createpost2{
+    padding: 12px;
+    text-decoration: none;
+    
+}
+.lipersonalizado{
+    &:hover{
+        cursor: pointer;
+        color:#2f3ab2
+    }
+}
+.contendorsearch{
+    width: 400px !important;
+    height: 50px !important;
+    margin-top: 8px;
+    margin-left: 10px;
 }
