@@ -12,7 +12,10 @@ $font-family-system:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve
 $cat-hover:rgba(247,223,30,0.10);
 $backgroundBody:rgb(245,245,245);
 
-
+.container-ajust{
+    margin-left:20px;
+    margin-right: -20px;
+}
 .secondArea{
     // margin-top: 100px;
     margin-top: 65px;
@@ -98,6 +101,9 @@ $backgroundBody:rgb(245,245,245);
 // }
 .aside1{
     padding-right: 10px;
+}
+.group-item-aside{
+    background-color: whitesmoke !important;
 }
 .aside2{
     padding-left: 10px;
