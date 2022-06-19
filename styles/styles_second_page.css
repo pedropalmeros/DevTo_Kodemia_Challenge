@@ -1,4 +1,29 @@
 .principalContentPage2 {
   margin-top: 100px;
 }
+
+.card-img-top {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.targetusr {
+  width: 50px;
+  height: 50px;
+  border-radius: 1000px;
+}
+
+.follow2 {
+  background-color: #3b49df !important;
+}
+
+.balckborde {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  margin: 0%;
+  padding: 0%;
+  z-index: 1030;
+}
 /*# sourceMappingURL=styles_second_page.css.map */
