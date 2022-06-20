@@ -266,17 +266,54 @@
   padding-left: 40px;
 }
 
-.style-cat-git {
+.style-cat-js {
   color: #f7df1e;
+}
+
+.style-cat-react {
+  color: #61dafb;
+}
+
+.style-cat-html {
+  color: #f53900;
 }
 
 .card-text {
   text-decoration: none;
   color: #404040;
+  padding: 4px 7px;
 }
 
 .card-text:hover {
   background: rgba(247, 223, 30, 0.1);
+  color: #404040;
+  border-radius: 6px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.card-text-html {
+  text-decoration: none;
+  color: #404040;
+  padding: 4px 7px;
+}
+
+.card-text-html:hover {
+  background: #ff32321a;
+  color: #404040;
+  border-radius: 6px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.card-text-react {
+  text-decoration: none;
+  color: #404040;
+  padding: 4px 7px;
+}
+
+.card-text-react:hover {
+  background: rgba(30, 196, 247, 0.1);
   color: #404040;
   border-radius: 6px;
   padding: 4px 7px;

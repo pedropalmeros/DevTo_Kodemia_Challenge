@@ -10,6 +10,8 @@ $buttonSave:#d6d6d7;
 $backgroundHoverReaction:rgba(0,0,0,0.035);
 $font-family-system:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 $cat-hover:rgba(247,223,30,0.10);
+$cat-hover-html:#ff32321a;
+$cat-hover-react:rgba(30, 196, 247, 0.1);
 $backgroundBody:rgb(245,245,245);
 $colorTextCategory:#575757;
 
@@ -298,15 +300,51 @@ $colorTextCategory:#575757;
     padding-left: 40px;
 }
 
-.style-cat-git{
+.style-cat-js{
     color: #f7df1e;
 }
+
+.style-cat-react{
+    color: #61dafb;
+}
+
+.style-cat-html{
+    color: #f53900;
+}
+
 
 .card-text{
     text-decoration: none;
     color: rgb(64,64,64);
+    padding: 4px 7px;
     &:hover{
         background: $cat-hover;
+        color:rgb(64,64,64);
+        border-radius: 6px;
+        padding: 4px 7px;
+        cursor: pointer;
+    }
+}
+
+.card-text-html{
+    text-decoration: none;
+    color: rgb(64,64,64);
+    padding: 4px 7px;
+    &:hover{
+        background: $cat-hover-html;
+        color:rgb(64,64,64);
+        border-radius: 6px;
+        padding: 4px 7px;
+        cursor: pointer;
+    }
+}
+
+.card-text-react{
+    text-decoration: none;
+    color: rgb(64,64,64);
+    padding: 4px 7px;
+    &:hover{
+        background: $cat-hover-react;
         color:rgb(64,64,64);
         border-radius: 6px;
         padding: 4px 7px;
