@@ -87,12 +87,52 @@
 
 .style-relevant {
   color: #090909;
-  font-size: 1.125rem;
-  font-weight: 700;
 }
 
 .style-relevant:hover {
   color: #3b49df;
+}
+
+.button-sections {
+  color: #575757;
+}
+
+.button-sections:hover {
+  color: #3b49df;
+}
+
+.cards-section-pills .nav-pills .nav-link.active, .cards-section-pills .nav-pills .show > .nav-link {
+  color: black;
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+.cards-section-pills .nav-pills .nav-link.active:hover, .cards-section-pills .nav-pills .show > .nav-link:hover {
+  color: #3b49df;
+}
+
+.cards-section-pills .nav-pills {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: black;
+  font-size: 18px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: black;
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link.active:hover, .nav-pills .show > .nav-link:hover {
+  color: #3b49df;
+}
+
+.nav-pills {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: black;
+  font-size: 18px;
 }
 
 .style-two-options:hover {
@@ -148,6 +188,9 @@
   }
   .title-post-secondary {
     font-size: 20px;
+  }
+  .cards-section-pills {
+    margin-top: 50px;
   }
 }
 
