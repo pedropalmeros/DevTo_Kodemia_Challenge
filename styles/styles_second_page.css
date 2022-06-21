@@ -168,4 +168,25 @@ body {
   align-items: center;
   position: relative;
   top: 30px;
-}/*# sourceMappingURL=styles_second_page.css.map */
+}
+
+/*
+    .leftAside2{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+
+    @media(min-width:768px){
+
+    .leftAside2{
+        position: relative;
+
+    }
+
+}
+
+*//*# sourceMappingURL=styles_second_page.css.map */

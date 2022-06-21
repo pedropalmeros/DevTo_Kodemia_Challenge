@@ -360,4 +360,22 @@ footer {
   height: 50px !important;
   margin-top: 8px;
   margin-left: 10px;
+}
+
+.cards-section-pills .nav-pills .nav-link.active, .cards-section-pills .nav-pills .show > .nav-link {
+  color: black;
+  background-color: rgb(245, 245, 245);
+  font-weight: bold;
+}
+.cards-section-pills .nav-pills .nav-link.active:hover, .cards-section-pills .nav-pills .show > .nav-link:hover {
+  color: rgb(59, 73, 223);
+  background: #F9F9F9;
+}
+
+.button-sections {
+  color: #575757;
+}
+.button-sections:hover {
+  color: rgb(59, 73, 223);
+  background: #F9F9F9;
 }/*# sourceMappingURL=styles.css.map */

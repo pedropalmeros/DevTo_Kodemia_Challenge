@@ -16,9 +16,9 @@
 
     <!-----------HEADER-------------------------->
     <header>
-        <nav>
-            <nav class="navbar fixed-top border-bottom p-0">
-                <div class="container-fluid d-flex justify-content-md-between">
+        <nav class="">
+            <nav class="navbar fixed-top border-bottom p-0 ">
+                <div class="container-fluid d-flex justify-content-md-between ">
                     <div class="d-flex ">
                         <button class="navbar-toggler d-md-none border border-light" type=" button"
                             data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -26,7 +26,7 @@
                             <span class="navbar-toggler-icon d-flex align-items-center"></span>
                         </button>
                         <img class="" src="./images/dev_to_icon_136699.png" alt="">
-                        <div class="input-group align-items-center w-auto">
+                        <div class="input-group align-items-center w-auto contendorsearch">
                             <input type="text" class="form-control d-none h-75 border-end-0  d-md-flex"
                                 placeholder="Search..." aria-label="Search" aria-describedby="basic-addon1">
                             <span class="input-group-text d-none d-md-flex h-75  " id="basic-addon1">
@@ -37,14 +37,10 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <a href="#"><img class="p-1 d-md-none"
-                                src="./images/magnifier_magnifying_glass_magnifying_view_search_icon_196570.png"
-                                alt=""></a>
-                        <button type="button" class="btn btn-outline-primary p-3 d-none d-md-block">Create Post</button>
+                        <a href="#"><img class="p-1 d-md-none"src="./images/magnifier_magnifying_glass_magnifying_view_search_icon_196570.png" alt=""></a>
+                        <button type="button" class="btn btn-outline-primary  d-none d-md-block createpost">Create Post</button>
                         <a href="#"><img class="m-3" src="./images/bell_simple_thin_icon_171966.png" alt=""></a>
-                        <a href=""> <img class="border border-dark rounded-circle"
-                                src="./images/avatar_people_adult_man_icon_159129.png" alt=""></a>
-
+                        <a href=""> <img class="border border-dark rounded-circle" src="./images/avatar_people_adult_man_icon_159129.png" alt=""></a>
                     </div>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
@@ -56,67 +52,66 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/home.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">Home</a>
+                                    <img src="images/home.png"
+                                        alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/reading_list.png" alt=""><a class="nav-link active"
+                                    <img src="images/achive.png" alt=""><a class="nav-link active"
                                         aria-current="page" href="#">Reading List</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/listing.png" alt=""> <a class="nav-link active"
+                                    <img src="images/listing.png" alt=""> <a class="nav-link active"
                                         aria-current="page" href="#">Listings</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/podcasts.png" alt=""> <a class="nav-link active"
-                                        aria-current="page" href="#">Podcasts</a>
+                                    <img src="images/podcasts.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Podcasts</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/videos.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">Videos</a>
+                                    <img src="images/videos.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Videos</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/tags.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">Tags</a>
+                                    <img src="images/tags.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Tags</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/faq.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">FAQ</a>
+                                    <img src="images/faq.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">FAQ</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/shop.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">Forem Shop</a>
+                                    <img src="images/shop.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Forem Shop</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img src="./icons/sponsors.png" alt=""> <a class="nav-link active"
+                                    <img src="images/sponsors.png" alt=""> <a class="nav-link active"
                                         aria-current="page" href="#">Sponsors</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img class="about1" src="./icons/about.png " alt="">
-                                    <a class="nav-link active" aria-current="page" href="#">About</a>
-
+                                    <img class="about1"src="images/about.png " alt="">
+                                    <a class="nav-link active"aria-current="page" href="#">About</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img src="./icons/contact.png" alt=""> <a class="nav-link active"
-                                        aria-current="page" href="#">Contact</a>
+                                    <img src="images/contact.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Contact</a>
                                 </li>
                                 <li class="nav-item  d-flex align-items-center justify-content-start">
-                                    <img class="about1" src="./icons/guides.png" alt=""> <a class="nav-link active"
-                                        aria-current="page" href="#">Guides</a>
+                                    <img class="about1"src="images/guides.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Guides</a>
                                 </li>
                                 <br>
                                 <h5>Others</h5>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/thumb_up.png" alt=""> <a class="nav-link active"
+                                    <img src="images/thumb_up.png" alt=""> <a class="nav-link active"
                                         aria-current="page" href="#">Code of Conduct</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/policy.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">Privacy Policy</a>
+                                    <img src="images/policy.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center justify-content-start">
-                                    <img src="./icons/eyes.png" alt=""> <a class="nav-link active" aria-current="page"
-                                        href="#">Terms of use</a>
+                                    <img src="images/eyes.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Terms of use</a>
                                 </li>
                             </ul>
                             </li>
@@ -141,7 +136,8 @@
     <div class="row">
 
     <!--------- LEFT ASIDE  - BEGIN    ------>
-    <aside class="col-1">
+    <aside class="col-md-3 fixed-md-top col-lg-2 order-4 order-md-1 leftAside2 d-none d-md-flex">
+       
         <div class="aside-icon-bar">
           <div class="aside-icon-container">
             <input
@@ -251,7 +247,7 @@
 
 
     <!------------- MAIN (CENTRAL) - BEGIN -------------->
-    <main class="cotainer col-6 main order-1 bg-white">
+    <main class="cotainer main col-md-6 order-1 bg-white">
         <div class="image-graph_2 mt-5">
             <img src="./images/card_section_1.png" class="card-img-top" alt="...">       
          </div>
@@ -323,9 +319,7 @@
         </div>
 
 
-        
-
-
+    
         <div class="autor d-flex mx-4 pt-5">
             <div>
                 <img src="./images/avatar_01.svg" class="avatar_entry_2nd" >
@@ -411,7 +405,7 @@
 
 
     <!----------  RIGHT ASIDE  - BEGIN  -->
-    <section class="d-flex justify-content-end container-aside order-3">
+    <section class="d-lg-flex col-md-4 justify-content-end container-aside order-3 d-none">
         <aside class="p-4">
     
           <div class="card">
