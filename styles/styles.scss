@@ -406,3 +406,23 @@ footer{
     margin-top: 8px;
     margin-left: 10px;
 }
+
+.cards-section-pills{
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: black;
+        background-color: $backgroundBody;
+        font-weight: bold;
+        &:hover{
+            color:$hoverButton;
+            background: #F9F9F9;  
+        }
+    }
+}
+
+.button-sections{
+    color:$colorTextCategory;
+    &:hover{
+        color:$hoverButton;
+        background: #F9F9F9; 
+    }
+}

@@ -138,9 +138,109 @@
     <div class="row">
 
     <!--------- LEFT ASIDE  - BEGIN    ------>
-    <aside class="aside1 col-1 order-0 bg-success">
-    saesdfr
-    </aside>
+    <aside class="col-md-3 fixed-md-top col-lg-2 order-4 order-md-1 leftAside2 d-none d-md-flex">
+       
+        <div class="aside-icon-bar">
+          <div class="aside-icon-container">
+            <input
+              type="checkbox"
+              id="aside-icon-checkboxheart"
+              class="checkboxhider"
+            />
+            <label
+              for="aside-icon-checkboxheart"
+              class="checkedlabel"
+              id="checkboxheaartlabel"
+            >
+              <img
+                src="./images/SVG/heart.png" 
+                alt=""
+                class="aside-icon-default"
+              />
+              <img
+                
+                src="./images/SVG/hearthover.png"
+                alt=""
+                class="aside-icon-hover"
+              />
+              <img
+                src="./images/SVG/heartring1.png"
+                alt=""
+                class="bigring"
+              />
+              <img
+                src="./images/SVG/heartcheked.png"
+                alt=""
+                class="aside-icon-cheked"
+                id="heart"
+              />
+            </label>
+            <div class="asidecount"><small>15</small></div>
+          </div>
+          <div class="aside-icon-container">
+            <input
+              type="checkbox"
+              id="aside-icon-checkboxunicorn"
+              class="checkboxhider"
+            />
+            <label for="aside-icon-checkboxunicorn" class="checkedlabel">
+              <img
+                src="./images/SVG/unicorn.png"
+                alt=""
+                class="aside-icon-default"
+              />
+              <img
+                src="./images/SVG/unicornhover.png"
+                alt=""
+                class="aside-icon-hover"
+              />
+              <img
+                src="./images/SVG/ringunicorn.png"
+                alt=""
+                class="bigring"
+              />
+              <img
+                src="./images/SVG/unicorncheked.png"
+                alt=""
+                class="aside-icon-cheked"
+                id="unicorn"
+              />
+            </label>
+            <div class="asidecount"><small>3</small></div>
+          </div>
+          <div class="aside-icon-container">
+            <input
+              type="checkbox"
+              id="aside-icon-checkboxsave"
+              class="checkboxhider"
+            />
+            <label for="aside-icon-checkboxsave" class="checkedlabel">
+              <img
+                src="./images/SVG/save.png"
+                alt=""
+                class="aside-icon-default"
+              />
+              <img
+                src="./images/SVG/savehover.png"
+                alt=""
+                class="aside-icon-hover"
+              />
+              <img
+                src="./images/SVG/savering1.png"
+                alt=""
+                class="bigring"
+              />
+              <img
+                src="./images/SVG/savercheked.png"
+                alt=""
+                class="aside-icon-cheked"
+                id="save"
+              />
+            </label>
+            <div class="asidecount"><small>10</small></div>
+          </div>
+        </div>
+      </aside>
 
 
     <!--------- LEFT ASIDE - END     ------>
@@ -149,9 +249,13 @@
 
 
     <!------------- MAIN (CENTRAL) - BEGIN -------------->
-    <main class="cotainer col-6 main order-1 bg-white">
-        <div class="image-graph mt-5">
-            <img src="/images/card_section_1.png" class="card-img-top" alt="...">        </div>
+    <main class="cotainer main col-md-6 order-1 bg-white">
+        <div class="image-graph_2 mt-5">
+            <img src="./images/card_section_1.png" class="card-img-top" alt="...">       
+         </div>
+
+
+
         <div class="autor d-flex mx-4">
             <div>
                 <img src="./images/avatar_01.svg" class="avatar_entry_2nd" >
@@ -217,9 +321,7 @@
         </div>
 
 
-        
-
-
+    
         <div class="autor d-flex mx-4 pt-5">
             <div>
                 <img src="./images/avatar_01.svg" class="avatar_entry_2nd" >
@@ -305,9 +407,57 @@
 
 
     <!----------  RIGHT ASIDE  - BEGIN  -->
-    <aside class="aside2 col-3 bg-danger order-1">
-        sdfsdf
-    </aside>
+    <section class="d-lg-flex col-md-4 justify-content-end container-aside order-3 d-none">
+        <aside class="p-4">
+    
+          <div class="card">
+            <span class="-border2 border border-dark bg-black rounded-top"></span>
+            <div class="bg-light card-body pt-0">
+              <div class="d-flex image-document">
+                <img class="targetusr me-2 mb-2" src="images/b5d7d157-a9a4-420e-b0ba-beaa4e843d7e.webp" alt="">
+                <h5 class="card-title pt-4">Aditya Oberai</h5>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="follow2 btn btn-primary mb-3" type="button">Follow</button>
+              </div>
+              <p class="card-text">Loves everything hackathons and communities ❤</p>
+              <p>
+              <h6>LOCATION</h6>
+              </p>
+              <p>India</p>
+              <p>
+              <h6>EDUCATION</h6>
+              </p>
+              <p>Amity University, Noida</p>
+              <p>
+              <h6>WORK</h6>
+              </p>
+              <p>Developer Advocate @ Appwrite</p>
+              <p>
+              <h6>JOINED</h6>
+              </p>
+              <p>6 oct 2019</p>
+            </div>
+    
+          </div>
+          <div class="mt-4">
+            <ul class="list-group">
+              <li class="list-group-item bg-light ">
+                <h5>More from <a class="link-title" href="#">Aditya Oberai</a></h5>
+              </li>
+              <li class="list-group-item bg-light">Launching the State of the Appwrite Community Survey
+                <br>
+                <small>#react #usestate #hook #javascript</small>
+              </li>
+              <li class="list-group-item bg-light">Becoming a Better Developer Through Open Source
+                <br>
+                <small>#webdev #webgistechnology #geolocation</small>
+              </li>
+          </div>
+        </aside>
+        </div>
+      </section>
+    
 
     <!----------  RIGHT ADIDE - END -->
     </div>
