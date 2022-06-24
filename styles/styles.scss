@@ -10,7 +10,10 @@ $buttonSave:#d6d6d7;
 $backgroundHoverReaction:rgba(0,0,0,0.035);
 $font-family-system:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 $cat-hover:rgba(247,223,30,0.10);
+$cat-hover-html:#ff32321a;
+$cat-hover-react:rgba(30, 196, 247, 0.1);
 $backgroundBody:rgb(245,245,245);
+$colorTextCategory:#575757;
 
 .container-ajust{
     margin-left:20px;
@@ -120,12 +123,54 @@ $backgroundBody:rgb(245,245,245);
 
 .style-relevant{
     color: $buttonRelevant;
-    font-size: 1.125rem;
-    font-weight: 700;
+    //font-size: 1.125rem;
+    //font-weight: 700;
 
     &:hover{
         color:$hoverButton;
     }
+}
+
+.button-sections{
+    color:$colorTextCategory;
+    &:hover{
+        color:$hoverButton;
+    }
+}
+
+.cards-section-pills{
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: black;
+        background-color: $backgroundBody;
+        font-weight: bold;
+        &:hover{
+            color:$hoverButton;
+        }
+    }
+    
+    .nav-pills {
+        --bs-nav-pills-border-radius: 0.375rem;
+        --bs-nav-pills-link-active-color: #fff;
+        --bs-nav-pills-link-active-bg: black;
+        font-size: 18px;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: $backgroundBody;
+    font-weight: bold;
+    &:hover{
+        color:$hoverButton;
+    }
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: 0.375rem;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: black;
+    font-size: 18px;
 }
 
 .style-two-options{
@@ -187,6 +232,9 @@ $backgroundBody:rgb(245,245,245);
 
     .title-post-secondary{
         font-size:20px;
+    }
+    .cards-section-pills{
+        margin-top: 50px;
     }
 }
 
@@ -252,15 +300,51 @@ $backgroundBody:rgb(245,245,245);
     padding-left: 40px;
 }
 
-.style-cat-git{
+.style-cat-js{
     color: #f7df1e;
 }
+
+.style-cat-react{
+    color: #61dafb;
+}
+
+.style-cat-html{
+    color: #f53900;
+}
+
 
 .card-text{
     text-decoration: none;
     color: rgb(64,64,64);
+    padding: 4px 7px;
     &:hover{
         background: $cat-hover;
+        color:rgb(64,64,64);
+        border-radius: 6px;
+        padding: 4px 7px;
+        cursor: pointer;
+    }
+}
+
+.card-text-html{
+    text-decoration: none;
+    color: rgb(64,64,64);
+    padding: 4px 7px;
+    &:hover{
+        background: $cat-hover-html;
+        color:rgb(64,64,64);
+        border-radius: 6px;
+        padding: 4px 7px;
+        cursor: pointer;
+    }
+}
+
+.card-text-react{
+    text-decoration: none;
+    color: rgb(64,64,64);
+    padding: 4px 7px;
+    &:hover{
+        background: $cat-hover-react;
         color:rgb(64,64,64);
         border-radius: 6px;
         padding: 4px 7px;
@@ -321,4 +405,24 @@ footer{
     height: 50px !important;
     margin-top: 8px;
     margin-left: 10px;
+}
+
+.cards-section-pills{
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: black;
+        background-color: $backgroundBody;
+        font-weight: bold;
+        &:hover{
+            color:$hoverButton;
+            background: #F9F9F9;  
+        }
+    }
+}
+
+.button-sections{
+    color:$colorTextCategory;
+    &:hover{
+        color:$hoverButton;
+        background: #F9F9F9; 
+    }
 }
