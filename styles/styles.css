@@ -1,20 +1,21 @@
 .container-ajust {
-  margin-left: 20px;
-  margin-right: -20px;
+  max-width: 1200px;
 }
 
 .secondArea {
   margin-top: 65px;
   padding-top: 15px;
-  background: rgb(245, 245, 245);
+  background: whitesmoke;
 }
 
 .left-aside .list-group-item {
   border: 0 !important;
 }
+
 .left-aside .list-group-item img {
   height: 20px;
 }
+
 .left-aside .list-group-item:hover {
   background-color: #e2e3f3;
   text-decoration: underline;
@@ -88,32 +89,36 @@
 }
 
 .features-footer {
-  background: rgb(229, 229, 229);
+  background: #e5e5e5;
   padding: 48px;
 }
 
 .style-relevant {
   color: #090909;
 }
+
 .style-relevant:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
 }
 
 .button-sections {
   color: #575757;
 }
+
 .button-sections:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
 }
 
 .cards-section-pills .nav-pills .nav-link.active, .cards-section-pills .nav-pills .show > .nav-link {
   color: black;
-  background-color: rgb(245, 245, 245);
+  background-color: whitesmoke;
   font-weight: bold;
 }
+
 .cards-section-pills .nav-pills .nav-link.active:hover, .cards-section-pills .nav-pills .show > .nav-link:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
 }
+
 .cards-section-pills .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
@@ -123,11 +128,12 @@
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: black;
-  background-color: rgb(245, 245, 245);
+  background-color: whitesmoke;
   font-weight: bold;
 }
+
 .nav-pills .nav-link.active:hover, .nav-pills .show > .nav-link:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
 }
 
 .nav-pills {
@@ -138,7 +144,7 @@
 }
 
 .style-two-options:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
 }
 
 .edition-icon {
@@ -152,6 +158,7 @@
   padding-bottom: 4px;
   cursor: pointer;
 }
+
 .edition-icon:hover {
   background-color: rgba(0, 0, 0, 0.035);
 }
@@ -173,47 +180,45 @@
     display: none;
   }
 }
+
 @media (min-width: 0px) and (max-width: 425px) {
   .aside2 {
     display: none;
   }
-
   .aside1 {
     display: none;
   }
-
   .visibility-title-icon {
     display: none;
   }
-
   .title-post {
     font-size: 24px;
   }
-
   .title-post-secondary {
     font-size: 20px;
   }
-
   .cards-section-pills {
     margin-top: 50px;
   }
 }
+
 @media (min-width: 426px) {
   .title-post {
     font-size: 30px;
   }
-
   .title-post-secondary {
     font-size: 24px;
   }
 }
+
 .title-post {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #090909;
 }
+
 .title-post:hover {
-  color: rgb(47, 48, 178);
+  color: #2f30b2;
 }
 
 .title-post-secondary {
@@ -221,8 +226,9 @@
   text-decoration: none;
   color: #090909;
 }
+
 .title-post-secondary:hover {
-  color: rgb(47, 48, 178);
+  color: #2f30b2;
 }
 
 .card-body {
@@ -237,8 +243,13 @@
 }
 
 .profile-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .name-profile {
@@ -268,12 +279,13 @@
 
 .card-text {
   text-decoration: none;
-  color: rgb(64, 64, 64);
+  color: #404040;
   padding: 4px 7px;
 }
+
 .card-text:hover {
   background: rgba(247, 223, 30, 0.1);
-  color: rgb(64, 64, 64);
+  color: #404040;
   border-radius: 6px;
   padding: 4px 7px;
   cursor: pointer;
@@ -281,12 +293,13 @@
 
 .card-text-html {
   text-decoration: none;
-  color: rgb(64, 64, 64);
+  color: #404040;
   padding: 4px 7px;
 }
+
 .card-text-html:hover {
-  background: rgba(255, 50, 50, 0.1019607843);
-  color: rgb(64, 64, 64);
+  background: #ff32321a;
+  color: #404040;
   border-radius: 6px;
   padding: 4px 7px;
   cursor: pointer;
@@ -294,19 +307,20 @@
 
 .card-text-react {
   text-decoration: none;
-  color: rgb(64, 64, 64);
+  color: #404040;
   padding: 4px 7px;
 }
+
 .card-text-react:hover {
   background: rgba(30, 196, 247, 0.1);
-  color: rgb(64, 64, 64);
+  color: #404040;
   border-radius: 6px;
   padding: 4px 7px;
   cursor: pointer;
 }
 
 .visibility-title-icon:hover {
-  color: rgb(64, 64, 64);
+  color: #404040;
 }
 
 .icons-general {
@@ -333,7 +347,15 @@
 }
 
 footer {
-  border: 20px solid rgb(245, 245, 245);
+  border: 20px solid whitesmoke;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.context {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .createpost {
@@ -341,6 +363,7 @@ footer {
   height: 40px;
   padding: 0%;
 }
+
 .createpost:hover {
   background-color: #3b49df;
 }
@@ -362,20 +385,27 @@ footer {
   margin-left: 10px;
 }
 
+.container-nav {
+  max-width: 1200px !important;
+}
+
 .cards-section-pills .nav-pills .nav-link.active, .cards-section-pills .nav-pills .show > .nav-link {
   color: black;
-  background-color: rgb(245, 245, 245);
+  background-color: whitesmoke;
   font-weight: bold;
 }
+
 .cards-section-pills .nav-pills .nav-link.active:hover, .cards-section-pills .nav-pills .show > .nav-link:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
   background: #F9F9F9;
 }
 
 .button-sections {
   color: #575757;
 }
+
 .button-sections:hover {
-  color: rgb(59, 73, 223);
+  color: #3b49df;
   background: #F9F9F9;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
