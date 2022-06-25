@@ -1,6 +1,5 @@
 .container-ajust {
-  margin-left: 20px;
-  margin-right: -20px;
+  max-width: 1200px;
 }
 
 .secondArea {
@@ -349,6 +348,14 @@
 
 footer {
   border: 20px solid whitesmoke;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.context {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .createpost {

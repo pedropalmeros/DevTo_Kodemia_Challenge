@@ -16,9 +16,9 @@ $backgroundBody:rgb(245,245,245);
 $colorTextCategory:#575757;
 
 .container-ajust{
-    margin-left:20px;
-    margin-right: -20px;
+    max-width: 1200px;
 }
+
 .secondArea{
     // margin-top: 100px;
     margin-top: 65px;
@@ -379,7 +379,13 @@ $colorTextCategory:#575757;
 }
 footer{
     border: 20px solid $backgroundBody;
-    
+    border-left: 0px;
+    border-right:0px;
+    border-bottom: 0px;
+}
+.context{
+    max-width:1200px;
+    margin:auto;
 }
 .createpost{
     width: 125px;
