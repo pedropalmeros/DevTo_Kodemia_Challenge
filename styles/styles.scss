@@ -135,6 +135,8 @@ $colorTextCategory:#575757;
     color:$colorTextCategory;
     &:hover{
         color:$hoverButton;
+        background: #f9f9f9;
+
     }
 }
 
@@ -146,6 +148,8 @@ $colorTextCategory:#575757;
         font-weight: bold;
         &:hover{
             color:$hoverButton;
+            background: #f9f9f9;
+
         }
     }
     

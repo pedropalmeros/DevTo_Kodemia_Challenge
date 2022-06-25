@@ -107,6 +107,7 @@
 
 .button-sections:hover {
   color: #3b49df;
+  background: #f9f9f9;
 }
 
 .cards-section-pills .nav-pills .nav-link.active, .cards-section-pills .nav-pills .show > .nav-link {
@@ -117,6 +118,7 @@
 
 .cards-section-pills .nav-pills .nav-link.active:hover, .cards-section-pills .nav-pills .show > .nav-link:hover {
   color: #3b49df;
+  background: #f9f9f9;
 }
 
 .cards-section-pills .nav-pills {
