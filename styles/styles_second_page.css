@@ -32,4 +32,196 @@
   position: relative;
   top: -15px;
 }
+
+.avatar_entry_2nd {
+  height: 40px;
+}
+
+.autorProperties {
+  line-height: 1;
+}
+
+.book_image {
+  max-width: 80%;
+}
+
+.textArea {
+  max-width: 80%;
+}
+
+.commentBox {
+  border: 1px #eee8e8 solid;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.image-graph_2 {
+  width: 80%;
+  height: auto;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.aside-icon-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100px;
+  height: 250px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 30px;
+}
+
+.aside-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 51px;
+  width: 51px;
+  position: relative;
+}
+
+.aside-icon-container .checkboxhider {
+  display: none;
+}
+
+.aside-icon-container .checkedlabel .aside-icon-default, .aside-icon-container .checkedlabel .aside-icon-hover {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  left: 0px;
+  top: 0px;
+}
+
+.aside-icon-container .checkedlabel .aside-icon-hover {
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.aside-icon-container .checkedlabel .bigring {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  left: -30px;
+  top: -30px;
+}
+
+.aside-icon-container .checkedlabel .aside-icon-cheked {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.aside-icon-container:hover .aside-icon-hover {
+  opacity: 1;
+}
+
+.checkboxhider:checked ~ .checkedlabel > .aside-icon-default, .checkboxhider:checked ~ .checkedlabel > .aside-icon-hover {
+  display: none;
+}
+
+.checkboxhider:checked ~ .checkedlabel > .aside-icon-cheked {
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+}
+
+.checkboxhider:checked ~ .checkedlabel > .bigring {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: .6;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#unicorn {
+  border-style: solid;
+  border-color: #199A6E;
+  border-width: 2px;
+}
+
+#heart {
+  border-style: solid;
+  border-color: #DC1B26;
+  border-width: 2px;
+}
+
+#save {
+  border-style: solid;
+  border-color: #44509E;
+  border-width: 2px;
+}
+
+.smallring {
+  display: none;
+}
+
+.asidecount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+/*
+    .leftAside2{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+
+    @media(min-width:768px){
+        
+    .leftAside2{
+        position: relative;
+
+    }
+    
+}
+ 
+*/
+
 /*# sourceMappingURL=styles_second_page.css.map */
